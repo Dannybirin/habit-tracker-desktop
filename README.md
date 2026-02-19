@@ -1,6 +1,6 @@
-# Habit Tracker Desktop (Electron)
+# Habit Tracker Desktop
 
-A desktop version of the Habit Tracker Calendar application built using Electron.
+A desktop version of the Habit Tracker Calendar application.
 
 This app wraps the original browser-based habit tracker into a standalone Windows executable.
 
