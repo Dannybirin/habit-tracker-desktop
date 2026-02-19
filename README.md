@@ -1,43 +1,38 @@
-Habit Tracker Desktop (Electron)
+# Habit Tracker Desktop (Electron)
 
 A desktop version of the Habit Tracker Calendar application built using Electron.
 
-This application wraps the original browser-based habit tracker into a standalone Windows executable.
+This app wraps the original browser-based habit tracker into a standalone Windows executable.
 
-Features
+## Features
 
-Monthly calendar layout
+- Monthly calendar layout
+- Add and delete daily tasks
+- Mark tasks as completed
+- Completion colour intensity system
+- Current streak and longest streak tracking
+- Dark mode toggle
+- Local data persistence using localStorage
+- Standalone Windows installer (.exe)
 
-Add and delete daily tasks
+## Technologies Used
 
-Mark tasks as completed
+- Electron
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Node.js
 
-Completion colour intensity system
+## Installation (Windows)
 
-Current and longest streak tracking
+1. Download the latest installer from the **Releases** section.
+2. Run `Habit Tracker Setup 1.0.0.exe`.
+3. Install and launch.
 
-Dark mode toggle
+## Development Setup
 
-Local data persistence using localStorage
+Clone the repository:
 
-Standalone Windows installer (.exe)
-
-Technologies Used
-
-Electron
-
-HTML5
-
-CSS3
-
-Vanilla JavaScript
-
-Node.js
-
-Installation (Windows)
-
-Download the latest installer from the Releases section.
-
-Run Habit Tracker Setup 1.0.0.exe
-
-Install and launch
+```bash
+git clone https://github.com/dannybirin/habit-tracker-desktop.git
+cd habit-tracker-desktop
