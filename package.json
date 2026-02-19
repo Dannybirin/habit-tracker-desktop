@@ -1,0 +1,25 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "Habit tracker calendar desktop app",
+  "main": "main.js",
+  "scripts": {
+  "start": "electron .",
+  "dist": "electron-builder"
+},
+  "devDependencies": {
+    "electron": "^37.0.0",
+    "electron-builder": "^26.8.1"
+  },
+  "type": "commonjs",
+  "build": {
+  "appId": "ie.tudublin.habittracker",
+  "productName": "Habit Tracker",
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis"
+  }
+}
+}
