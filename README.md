@@ -36,3 +36,27 @@ Clone the repository:
 ```bash
 git clone https://github.com/dannybirin/habit-tracker-desktop.git
 cd habit-tracker-desktop
+```
+Install dependencies:
+```
+npm install
+```
+Run in development mode:
+```
+npx electron .
+```
+Build the Windows installer:
+```
+npm run dist
+```
+Related Project
+
+Web version: https://github.com/dannybirin/habit_tracker
+
+Then commit + push:
+
+```powershell
+git add README.md
+git commit -m "Improve README formatting"
+git push
+```
